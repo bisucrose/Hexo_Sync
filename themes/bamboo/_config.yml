@@ -158,12 +158,12 @@ sidebar:
         visitcounter:
           service: busuanzi # only busuanzi
           siteuv:
-            on: false
-            text: '本站访客数：'
+            on: true
+            text: '访客数：'
             unit: '人'
           sitepv:
-            on: false
-            text: '本站总访问量：'
+            on: true
+            text: '总访问量：'
             unit: '次'
         lastupd:
           on: true
@@ -344,7 +344,7 @@ music:
   fixed: true       # 开启吸底模式，建议开启
   autoplay: true   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
-  loop: 'one'       # 音频循环播放, 可选值: 'all', 'one', 'none'
+  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'list'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.07       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
@@ -384,10 +384,10 @@ notice:
       date: '2024-10-18'
       url: 'https://music.163.com/playlist?id=12760678202&uct2=U2FsdGVkX18qjwKL+sy82Lguu03JhZoEfaWJ6A8w61g='
       color: blue
-    - title: '#可以加入琉璃姐姐的群哦~'
-      date: '2024-10-16'
-      url: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Ics5ezQ8ELkSQPEGu_VFGXaGwMpMQSt&authKey=40cT1pJR4cSzmDyXZbVAP5%2F7edJBKVKSj%2FMXZ12YNKbLZ7re8i%2BbNaQPqxvW9epN&noverify=0&group_code=851139709'
-      color: '#42b983'
+    # - title: '#可以加入琉璃姐姐的群哦~'
+    #   date: '2024-10-16'
+    #   url: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Ics5ezQ8ELkSQPEGu_VFGXaGwMpMQSt&authKey=40cT1pJR4cSzmDyXZbVAP5%2F7edJBKVKSj%2FMXZ12YNKbLZ7re8i%2BbNaQPqxvW9epN&noverify=0&group_code=851139709'
+    #   color: '#42b983'
     # - title: '#新增 头部导航可以设置为在顶部透明，并且可以任意设置背景颜色了 ~'
     #   date: '2021-04-28'
     #   url: 'http://baidu.com'
@@ -406,7 +406,7 @@ topArticle:
 typed:
   on: true
   loop: false # 是否循环
-  showCursor: false # 是否显示光标
+  showCursor: true # 是否显示光标
   startDelay: 100 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
@@ -488,7 +488,7 @@ gitalk:
 
 # utterance 评论  官网：https://utteranc.es/, 建议用这个评论，默认开启的这个评论
 utterance:
-  on: true
+  on: false
   # 仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
   repo: 
   # 主题
@@ -535,7 +535,7 @@ danmu:
 
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
-  title: 'Archive'
+  title: '归档'
   img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: true # 设置为true，则图片全屏显示
@@ -547,7 +547,7 @@ archive:
 
 # 标签页面，配置同上
 tag:
-  title: 'tags'
+  title: '选择一个你喜欢的标签吧♡'
   img: '/medias/Wallpaper/3.jpg' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: false # 标签页上面的图片是否全屏显示
@@ -557,7 +557,7 @@ tag:
 
 # 标签详情页面，配置同上
 tagDetail:
-  title: 'tag'
+  title: '喵，进来了哦♡'
   img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: false
@@ -566,7 +566,7 @@ tagDetail:
 
 # 分类页面，配置同上
 categories:
-  title: 'categories'
+  title: '选择一个你喜欢的分类吧♡'
   img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
@@ -576,7 +576,7 @@ categories:
 
 #分类详情页面，配置同上
 categoryDetail:
-  title: 'category'
+  title: '喵，进来了哦♡'
   img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
@@ -693,8 +693,8 @@ pjax:
 
 # 鼠标手势
 cursor:
-  pointer: https://zhutix.com/wp-content/themes/b2/x2.cur
-  default: https://zhutix.com/wp-content/themes/b2/x1.cur
+  pointer: 
+  default: 
   text: 
   zoom-in: 
   zoom-out: 

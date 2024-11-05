@@ -6,7 +6,7 @@ swiperImg: '/medias/1.jpg' # 该文章在轮播图中的图片，可以是本地
 img: '/medias/Wallpaper/2.jpg' # 该文章图片，可以是本地目录下图片也可以是http://xxx图片
 categories: To-Do List
 tags: []
-top: true
+top: false
 ---
 
 
@@ -26,7 +26,7 @@ top: true
 - [ ] 白嫖Github Education Pack的方式
 - [ ] 保研过程指南
 - [ ] IPA Chart 语言语音学习笔记
-- [ ] 吉林大学常用网站导航
+- [x] 吉林大学常用网站导航
 - [ ] 手机Root和必备软件安装
-- [ ] 蓝牙耳机协议及模式
+- [x] 蓝牙耳机协议及模式
 - [ ] 
