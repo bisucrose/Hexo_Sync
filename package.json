@@ -12,6 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.14",
     "hexo": "^7.3.0",
     "hexo-asset-image": "github:CodeFalling/hexo-asset-image",
     "hexo-deployer-git": "^4.0.0",
