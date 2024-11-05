@@ -1,47 +1,47 @@
 # 配置里面 线上地址写法：http://xxx，本地地址。可以在`source`文件夹下创建目录，假如创建img和videos目录，则引用的时候使用 /img/xxx 写法, /videos/xxx  ... 
 
 # 菜单
-# menu:
-#   Home:
-#     url: /
-#     icon: fas fa-home
-#   Archives:
-#     url: /archives
-#     icon: fas fa-archive
-#   Tags:
-#     url: /tags
-#     icon: fas fa-tags
-#   Categories:
-#     url: /categories
-#     icon: fas fa-bookmark
-#   Friends:
-#     url: /friends
-#   更多: # 这是二级菜单的写法
-#    icon: fas fa-link
-#    children:
-#     - name: 图库
-#       url: /gallery
-#       icon: fas fa-music
-#     - name: 友情连接
-#       url: /huoban
-#       icon: fas fa-film
-#     - name: 关于我
-#       url: /me
-#       icon: fas fa-film
-#     - name: 百度
-#       url: http://baidu.com
-#       icon: fas fa-film
+menu:
+  Home:
+    url: /
+    icon: fas fa-home
+  Archives:
+    url: /archives
+    icon: fas fa-archive
+  Tags:
+    url: /tags
+    icon: fas fa-tags
+  Categories:
+    url: /categories
+    icon: fas fa-bookmark
+  Friends:
+    url: /friends
+  # 更多: # 这是二级菜单的写法
+  #  icon: fas fa-link
+  #  children:
+  #   - name: 图库
+  #     url: /gallery
+  #     icon: fas fa-music
+  #   - name: 友情连接
+  #     url: /huoban
+  #     icon: fas fa-film
+  #   - name: 关于我
+  #     url: /me
+  #     icon: fas fa-film
+  #   - name: 百度
+  #     url: http://baidu.com
+  #     icon: fas fa-film
 
 # github地址, 头部导航右上角的github链接
 Github: 
   on: true
-  url: https://github.com/bisucrose
+  url: https://github.com/bisucrose/
 
 # 网站logo
-logo: /medias/logo.png # 为空则不显示
+logo: /medias/avatar.jpg # 为空则不显示
 
 # 网站 favicon
-favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: /favi.png # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -49,12 +49,12 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp
-      shape: rectangle # circle, rectangle
+      avatar: /medias/Profile.jpg
+      shape: circle # circle, rectangle
       url: /about/
-      title: 青墨书晚风
-      subtitle: 我是副标题
-      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      title: bisucrose
+      subtitle: ♡给你双倍的甜度哦♡
+      jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: '#fff'
       order:  # 卡片排序, 数值越小，越在上面
@@ -62,11 +62,11 @@ sidebar:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:me@xxx.com
+          url: mailto:bidonghui0010@outlook.com
         - icon: fab fa-github
-          url: https://github.com/yuang01/hexo-theme-bamboo
+          url: https://github.com/bisucrose/
         - icon: fab fa-qq
-          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=你的qq号码
+          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1968717280
     # ---------------------------------------
     side_toc:
       on: true
@@ -111,28 +111,28 @@ sidebar:
     side_recent_post:
       on: true
       background: '#fff'
-      limit: 5
+      limit: 3
       sort: update # date
       order: 
       header:
         icon: fas fa-book
         icon_color: 
-        title: 最新文章
+        title: 最近发布
         url: /tags/
     # ---------------------------------------
     # side_archives widget
     side_archives:
       on: true
       type: monthly # yearly or monthly      or yearly
-      format: MMMM YYYY # eg: YYYY年MM月     or YYYY
+      format: YYYY年 MM月 # eg: YYYY年MM月     or YYYY
       timeOrder: -1 # Sort of order. 1, asc for ascending; -1, desc for descending 时间排序
-      limit: 8 # if set 0 will show all
+      limit: 5 # if set 0 will show all
       order:  # widget order 卡片排序
       background: '#fff'
       header: 
         icon: fas fa-archive
         icon_color: red
-        title: 归档
+        title: 时间轴
     # ---------------------------------------
     # side_webinfo widget
     side_webinfo:
@@ -140,7 +140,7 @@ sidebar:
       order: 
       header: 
         icon: fas fa-chart-line
-        title: 站点信息
+        title: 本站信息
       type:
         article:
           on: true
@@ -148,9 +148,9 @@ sidebar:
           unit: '篇'
         runtime:
           on: true
-          data: '2020/01/01'    # 填写建站日期
-          text: '已运行时间：'
-          unit: '天'
+          data: '2024/10/19'    # 填写建站日期
+          text: '已稳定运行：'
+          unit: '日'
         wordcount:
           on: true
           text: '本站总字数：'   # 需要启用 wordcount
@@ -158,23 +158,23 @@ sidebar:
         visitcounter:
           service: busuanzi # only busuanzi
           siteuv:
-            on: true
+            on: false
             text: '本站访客数：'
             unit: '人'
           sitepv:
-            on: true
+            on: false
             text: '本站总访问量：'
             unit: '次'
         lastupd:
           on: true
-          friendlyShow: true    # 更友好的时间显示
+          friendlyShow: false    # 更友好的时间显示
           text: '最后活动时间：'
-          unit: '日'
+          unit: ''
 
 # 页面刷新时预加载动画
 preloader:
   on: true
-  type: 6 # 1/2/3/4/5/6/7/8
+  type: 7 # 1/2/3/4/5/6/7/8
 
 # 首页轮播图设置
 swiper:
@@ -194,17 +194,17 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   wave: true # 轮播图底下的波浪特效
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg' # 图片，没有则随机选取
+  defaultImg: '/medias/Wallpaper/7.jpg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: '青墨书晚风' # 标题
-  defaultDesc: [] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
+  defaultTile: '苏可璐斯的部落阁' # 标题
+  defaultDesc: ['知道bisucrose是什么意思吗？','♡是两份蔗糖，双倍甜度的意思哦♡','音乐在左下角，点一下就可以播放了','声音已经调小了喵♡'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
-  defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
-  defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
+  defaultDescTypedSpeed: 70 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
   defaultDescTypedLoop: true # defaultDesc文字的打字特效是否循环  typed loop
   # defaultAddToSwiper表示：当有文章设置了swiper: true的时候，将上面的 默认内容 放在轮播图的第一页
@@ -240,23 +240,23 @@ show_count: true
 # 打赏功能
 donate:
   on: true
-donate_message: 你的赏识是我前进的动力
+donate_message: 哇，有小可爱喜欢我的文章，感谢支持！
 # 支付宝打赏图片相对路径
-Alipay: 'https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp'
+Alipay: '/medias/AliPay.png'
 # 微信打赏图片相对路径
-WeChatpay: 'https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp'
+WeChatpay: '/medias/WeChatPay.png'
 
 # 分享功能
 sharejs: 
   on: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  sites: qq,qzone,wechat,weibo,twitter,facebook,google,douban,linkedin
 
 # 鼠标点击特效
 cursor_effect:
   on: true
-  type: explosion  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
+  type: love  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
 
-# 头部导航是否显示天气
+# 头部导航是否显示天气（已失效）
 weather:
   on: false
 
@@ -271,8 +271,8 @@ postNav:
 # 复制成功提示
 copy:
   on: true
-  title: '成功'
-  content: '代码已复制，请遵守相关授权协议。'
+  title: '苏酱已经帮你复制好了哦'
+  content: '粘贴时试试Win+V，会有不一样的效果喵。什么你是MacBook？那就别来凑热闹了喵'
 
 # 输入框打字特效
 inputEffects:
@@ -280,12 +280,12 @@ inputEffects:
 
 # 背影彩带
 ribbon:
-  on: true
+  on: false
 
 # live-2d(左下角动画人物)
 live2d:
   on: false # 控制显示或者隐藏
-  modelId:  # 0 or 1 or 2 or 3 or 4 or 5 or 6
+  modelId: 5  # 0 or 1 or 2 or 3 or 4 or 5 or 6
   open: true # 默认展开，false则收缩，通过点左下角的方块点击，控制展开或者收缩
 
 # 首页雪花飘落效果--冬天
@@ -311,7 +311,7 @@ lantern:
 
 # https://scrollrevealjs.org/api/reveal.html 滚动动画, 旧版本用的是aos.js(已经弃用aos.js)
 scrollreveal:
-  on: false
+  on: true
   js: https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.min.js
   distance: 120px
   duration: 400 # ms
@@ -337,19 +337,19 @@ baiduPush: true
 # 音乐
 music:
   on: true
-  autoHide: true    # hide automaticaly
-  server: tencent   # require music platform: netease, tencent, kugou, xiami, baidu
+  autoHide: false    # hide automaticaly
+  server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    # require song, playlist, album, search, artist
-  id: 8062553743    # require song id / playlist id / album id / search keyword
+  id: 12760678202    # require song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式，建议开启
-  autoplay: false   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
+  autoplay: true   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
+  loop: 'one'       # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'list'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
-  hideLrc: false    # 隐藏歌词
+  volume: 0.07       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false  # 列表默认折叠
+  hideLrc: true    # 隐藏歌词
 
 #版权信息  coryRyght
 copyright:
@@ -359,7 +359,10 @@ copyright:
 motto:
   on: true
   title: '座右铭'
-  content: '沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜'
+  content: |
+    君子一语，其言也知；智者一言，其道昭之。  
+    蝇营狗苟，凛然叱之；患难如此，万众王之。  
+    圣甚，宁甚，仁甚，慈甚！贞若百合。
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
 
 # 首页公告
@@ -369,22 +372,22 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    # - title: '#博客更新到2.0了'
-    #   date: '2021-04-28'
-    #   url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
-    #   color: red   # 字体颜色
-    # - title: '#新增 轮播图支持三种模式了，功能也增强了 ~'
-    #   date: '2021-04-28'
-    #   url: 'http://baidu.com'
-    #   color: red
-    # - title: '#新增 支持二级导航'
-    #   date: '2021-04-28'
-    #   url: 'http://baidu.com'
-    #   color: blue
-    # - title: '#新增 归档，分类等页面头部图片位置可以设置为视频 ~'
-    #   date: '2021-04-28'
-    #   url: 'http://baidu.com'
-    #   color: '#42b983'
+    - title: '#苏可璐斯的小站终于重启了'
+      date: '2024-10-08'
+      url: ''   # 可以为空, 也可以是本地页面地址如 '/archives'
+      color: green   # 字体颜色
+    - title: '#琉璃姐姐也是一位很厉害的人呢，大家可以去她的博客看一看'
+      date: '2024-10-16'
+      url: 'http://glasswarm.github.io/'
+      color: red
+    - title: '#音乐功能已经配置好了，可以点击左下角播放哦'
+      date: '2024-10-18'
+      url: 'https://music.163.com/playlist?id=12760678202&uct2=U2FsdGVkX18qjwKL+sy82Lguu03JhZoEfaWJ6A8w61g='
+      color: blue
+    - title: '#可以加入琉璃姐姐的群哦~'
+      date: '2024-10-16'
+      url: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Ics5ezQ8ELkSQPEGu_VFGXaGwMpMQSt&authKey=40cT1pJR4cSzmDyXZbVAP5%2F7edJBKVKSj%2FMXZ12YNKbLZ7re8i%2BbNaQPqxvW9epN&noverify=0&group_code=851139709'
+      color: '#42b983'
     # - title: '#新增 头部导航可以设置为在顶部透明，并且可以任意设置背景颜色了 ~'
     #   date: '2021-04-28'
     #   url: 'http://baidu.com'
@@ -532,8 +535,8 @@ danmu:
 
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
-  title: 'archive'
-  img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
+  title: 'Archive'
+  img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: true # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
@@ -545,7 +548,7 @@ archive:
 # 标签页面，配置同上
 tag:
   title: 'tags'
-  img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
+  img: '/medias/Wallpaper/3.jpg' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
@@ -555,7 +558,7 @@ tag:
 # 标签详情页面，配置同上
 tagDetail:
   title: 'tag'
-  img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
+  img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
@@ -564,7 +567,7 @@ tagDetail:
 # 分类页面，配置同上
 categories:
   title: 'categories'
-  img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
+  img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -574,7 +577,7 @@ categories:
 #分类详情页面，配置同上
 categoryDetail:
   title: 'category'
-  img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
+  img: '/medias/Wallpaper/3.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -591,7 +594,7 @@ color_scheme:
   # 通用颜色
   common:
     # 主题色
-    theme: 'rgba(66, 185, 133, 0.8)'
+    theme: '#684562'
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 链接色 a标签
@@ -599,8 +602,8 @@ color_scheme:
     # 首页文章列表的背景颜色, url("http://xxx.png") or red or #000 or rgba() ..
     postListBackground: 'rgba(255,255,255,1)'
     # 首页页面的底部背景颜色，空字符串透明('transparent')，可以是白色('#fff')等颜色, 也可以是图片，例如  'url("https://img11.360buyimg.com/ddimg/jfs/t1/169624/29/16/4603017/5fec2c79Eecbd536a/308b28b82a013cd2.png")'
-    bgFloor: 'url("https://pic2.zhimg.com/80/v2-a90e3e9f544549e244355039b96bd606_1440w.jpg")' # 如果是图片地址，url里面请用双引号
-    headerMenuBackgroundColor: '' 
+    bgFloor: 'url("/medias/Wallpaper/3.jpg")' # 如果是图片地址，url里面请用双引号
+    headerMenuBackgroundColor: 'url("/medias/Wallpaper/4.jpg")'
     # headerMenuBackgroundColor:头部导航背景颜色, 为空则使用theme主题色, 
     # headerMenuBackgroundColor写法: rgba(268, 264, 269, 0.8) or #42b983 or red or 也可以是渐变颜色 linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)  or 也可以是url("图片地址")
   # 文章详情页 颜色属性
@@ -636,15 +639,15 @@ site_footer:
   # busuanzi是访客数那个,假如说你想在 social和 copyright中间加一个自定义内容, 可以这样写 layout: [social, aaa ,copyright, busuanzi, custom], 然后在下面写上aaa: 'markdown格式', aaa这个名称随便取
   layout: [social, copyright, custom]
   social:
-    # - icon: fas fa-rss
-    #   url: /atom.xml
-    # - icon: fas fa-envelope
-    #   url: mailto:1730241541@qq.com
-    # - icon: fas fa-github
-    #   url: https://github.com/yuang01/hexo-theme-bamboo
-    # - icon: fas fa-qq
-    #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2019 - 2020 <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+    - icon: fas fa-envelope
+      url: mailto:bidonghui0010@outlook.com
+    - icon: fab fa-github
+      url: https://github.com/bisucrose
+    - icon: fab fa-qq
+      url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1968717280
+    - icon: fas fa-rss
+      url: /atom.xml
+  copyright: 'Copyright © 2017 - 2024 <a href="https://github.com/bisucrose">bisucrose</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     # - label: '<br>'
     # - label: '[Hello World](http://baidu.com)'
@@ -702,7 +705,8 @@ lazyload:
   enable: true
   js: https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js
   onlypost: false
-  loadingImg: https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp
+  loadingImg: 
+  # https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp
   blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
 
@@ -728,7 +732,7 @@ highlight:
 
 # wordcount字数统计, 需要 npm i hexo-wordcount 安装
 wordcount:
-  on: false
+  on: true
 
 # 自己嵌入css或者script
 import:

@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: bisucrose
+title: 苏可璐斯的小站
 subtitle: '给你双倍甜度'
-description: '苏可璐斯的小破站'
+description: '苏可璐斯的小站'
 keywords:
 author: bisucrose
 language: zh-CN
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -101,4 +101,10 @@ theme: bamboo
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/bisucrose/bisucrose.github.io.git
+  branch: main
+
+search:
+  path: search.xml
+  field: post
