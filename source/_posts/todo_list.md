@@ -15,6 +15,9 @@ top: false
 
 - [x] Visual Studio Code终端字体配置&中文编码配置&编辑器字体配置
 - [x] 吉林大学校园网使用指南（2024版）
+- [x] 蓝牙耳机协议及模式
+- [x] 电子设计大赛实例
+- [x] 吉林大学常用网站导航
 - [ ] hexo 配置过程说明+macbook如何使用hexo
 - [ ] MacBook如何重装系统
 - [ ] macbook的MBR+GPT混合分区表作用 创建与恢复+维护
@@ -26,7 +29,4 @@ top: false
 - [ ] 白嫖Github Education Pack的方式
 - [ ] 保研过程指南
 - [ ] IPA Chart 语言语音学习笔记
-- [x] 吉林大学常用网站导航
 - [ ] 手机Root和必备软件安装
-- [x] 蓝牙耳机协议及模式
-- [ ] 
