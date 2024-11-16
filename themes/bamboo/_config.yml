@@ -41,7 +41,7 @@ Github:
 logo: /medias/avatar.jpg # 为空则不显示
 
 # 网站 favicon
-favicon: /favi.png # or .png .jpg .svg .gif .jpeg .ico
+favicon: /medias/favi.png # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -167,7 +167,7 @@ sidebar:
             unit: '次'
         lastupd:
           on: true
-          friendlyShow: false    # 更友好的时间显示
+          friendlyShow: true    # 更友好的时间显示
           text: '最后活动时间：'
           unit: ''
 
@@ -196,13 +196,13 @@ swiper:
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
   defaultImg: '/medias/Wallpaper/7.jpg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
-  defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
+  defaultVideoLoadingImg: '/medias/Loading.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '苏可璐斯的部落阁' # 标题
   defaultDesc: ['知道bisucrose是什么意思吗？','♡是两份蔗糖，双倍甜度的意思哦♡','音乐在左下角，点一下就可以播放了','声音已经调小了喵♡'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
+  defaultLeftBtnLink: '' # 左边按钮链接 
   defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
+  defaultRightBtnLink: '' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 70 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -229,7 +229,6 @@ fancybox:
   on: true
   css: https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css
   js:  https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js
-
 # 统计网站访问数量
 busuanzi:
   on: true
@@ -242,9 +241,9 @@ donate:
   on: true
 donate_message: 哇，有小可爱喜欢我的文章，感谢支持！
 # 支付宝打赏图片相对路径
-Alipay: '/medias/AliPay.png'
+Alipay: '/medias/Donate/AliPay.png'
 # 微信打赏图片相对路径
-WeChatpay: '/medias/WeChatPay.png'
+WeChatpay: '/medias/Donate/WeChatPay.png'
 
 # 分享功能
 sharejs: 
@@ -271,7 +270,7 @@ postNav:
 # 复制成功提示
 copy:
   on: true
-  title: '苏酱已经帮你复制好了哦'
+  title: '已经帮你复制好了哦'
   content: '粘贴时试试Win+V，会有不一样的效果喵。什么你是MacBook？那就别来凑热闹了喵'
 
 # 输入框打字特效
