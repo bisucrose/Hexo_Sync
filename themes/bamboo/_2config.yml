@@ -41,7 +41,7 @@ Github:
 logo: /medias/avatar.jpg # 为空则不显示
 
 # 网站 favicon
-favicon: medias/favi.png # or .png .jpg .svg .gif .jpeg .ico
+favicon: /medias/favi.png # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -167,7 +167,7 @@ sidebar:
             unit: '次'
         lastupd:
           on: true
-          friendlyShow: false    # 更友好的时间显示
+          friendlyShow: true    # 更友好的时间显示
           text: '最后活动时间：'
           unit: ''
 
@@ -200,9 +200,9 @@ swiper:
   defaultTile: '苏可璐斯的部落阁' # 标题
   defaultDesc: ['知道bisucrose是什么意思吗？','♡是两份蔗糖，双倍甜度的意思哦♡','音乐在左下角，点一下就可以播放了','声音已经调小了喵♡'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
+  defaultLeftBtnLink: '' # 左边按钮链接 
   defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
+  defaultRightBtnLink: '' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 70 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -229,7 +229,6 @@ fancybox:
   on: true
   css: https://npm.elemecdn.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css
   js:  https://npm.elemecdn.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js
-
 # 统计网站访问数量
 busuanzi:
   on: true
@@ -768,12 +767,12 @@ CDN:
   iconfont: https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css
   fontAwesome: https://npm.elemecdn.com/@fortawesome/fontawesome-free/css/all.min.css
   aplayer: https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js
-  Meting: https://unpkg.com/meting@2/dist/Meting.min.js
+  Meting: https://npm.elemecdn.com/meting@2/dist/Meting.min.js
   livere: https://cdn-city.livere.com/js/embed.dist.js
-  gitmentCss: https://unpkg.com/gitment@0.0.3/style/default.css
-  gitmentJs: https://unpkg.com/gitment@0.0.3/dist/gitment.browser.js
-  gitalkCss: https://unpkg.com/gitalk@1.7.2/dist/gitalk.css
-  gitalkJs: https://unpkg.com/gitalk@1.7.2/dist/gitalk.min.js
+  # gitmentCss: https://unpkg.com/gitment@0.0.3/style/default.css
+  # gitmentJs: https://unpkg.com/gitment@0.0.3/dist/gitment.browser.js
+  # gitalkCss: https://unpkg.com/gitalk@1.7.2/dist/gitalk.css
+  # gitalkJs: https://unpkg.com/gitalk@1.7.2/dist/gitalk.min.js
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js # 不蒜子
   ayuCss: https://unpkg.com/v-plugs-ayu/lib/ayu.css
   ayuJs: https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js
@@ -782,8 +781,8 @@ CDN:
   paceJs: //cdn.bootcss.com/pace/1.0.2/pace.min.js
   paceCss: //cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
-  typedJs: https://unpkg.com/typed.js@2.0.11
+  typedJs: https://npm.elemecdn.com/typed.js@2.0.11
   tocbotJs: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
   tocbotCss: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css
-  jquery: https://unpkg.com/jquery@3.5.1/dist/jquery.min.js
-  vue: https://unpkg.com/vue@2.6.11/dist/vue.min.js
+  jquery: https://npm.elemecdn.com/jquery@3.5.1/dist/jquery.min.js
+  vue: https://npm.elemecdn.com/vue@2.6.11/dist/vue.min.js
