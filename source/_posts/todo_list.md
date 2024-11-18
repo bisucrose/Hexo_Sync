@@ -19,6 +19,7 @@ top: false
 - [x] 电子设计大赛实例
 - [x] 吉林大学常用网站导航
 - [ ] hexo 配置过程说明+macbook如何使用hexo
+- [ ] github blog速度优化方案
 - [ ] MacBook如何重装系统
 - [ ] macbook的MBR+GPT混合分区表作用 创建与恢复+维护
 - [ ] Windows下使用powershell的时候显示此系统上禁止运行脚本

@@ -3,7 +3,7 @@ title: 吉林大学常用网站导航
 date: 2024-11-05 16:46:08
 img: '/medias/Wallpaper/3.jpg' # 该文章图片，可以是本地目录下图片也可以是http://xxx图片
 categories: 吉林大学
-tags: [吉林大学，实用页面]
+tags: [吉林大学,实用页面]
 top: true
 ---
 
