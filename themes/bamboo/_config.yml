@@ -82,7 +82,7 @@ sidebar:
     # ---------------------------------------
     # category widget
     side_category:
-      on: true
+      on: false
       background: '#fff'
       order:  # 卡片排序(widget都有)，任意数字，数字小的在上面
       header:
@@ -149,8 +149,8 @@ sidebar:
         runtime:
           on: true
           data: '2024/10/19'    # 填写建站日期
-          text: '已稳定运行：'
-          unit: '日'
+          text: '居然已经稳定运行：'
+          unit: '天'
         wordcount:
           on: true
           text: '本站总字数：'   # 需要启用 wordcount
@@ -198,11 +198,11 @@ swiper:
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '苏可璐斯的部落阁' # 标题
-  defaultDesc: ['知道bisucrose是什么意思吗？','♡是两份蔗糖，双倍甜度的意思哦♡','音乐在左下角，点一下就可以播放了','声音已经调小了喵♡'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultDesc: ['知道bisucrose是什么意思吗？','♡是两份蔗糖，双倍甜度的意思哦♡','音乐在左下角，点一下就可以播放了'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
+  defaultLeftBtnLink: '' # 左边按钮链接 
   defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
+  defaultRightBtnLink: '' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 70 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -372,7 +372,7 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    - title: '#苏可璐斯的小站终于重启了'
+    - title: '#苏可璐斯的小站终于重启了,https://bisucrose.github.io/为永久链接，若https://bisucrose.tech/无法访问，请访问https://bisucrose.github.io/。'
       date: '2024-10-08'
       url: ''   # 可以为空, 也可以是本地页面地址如 '/archives'
       color: green   # 字体颜色
@@ -488,15 +488,15 @@ gitalk:
 
 # utterance 评论  官网：https://utteranc.es/, 建议用这个评论，默认开启的这个评论
 utterance:
-  on: false
+  on: true
   # 仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
-  repo: 
+  repo: bisucrose/bisucrose.github.io
   # 主题
   theme:
     light: github-light
     dark: github-dark
   # 映射配置
-  issue_term: pathname
+  issue_term: title
   cdn: https://utteranc.es/client.js
 
 # beaudar

@@ -27,7 +27,7 @@ top: false
 - [ ] opencore基础配置
 - [ ] markdown基本语法
 - [ ] opencore legacy patcher的使用方式
-- [ ] 白嫖Github Education Pack的方式
-- [ ] 保研过程指南
+- [x] 白嫖Github Education Pack的方式
+- [x] 保研过程指南
 - [ ] IPA Chart 语言语音学习笔记
 - [ ] 手机Root和必备软件安装
