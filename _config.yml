@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 苏可璐斯的小站
+title: 苏可璐斯部落阁
 subtitle: '给你双倍甜度'
-description: '苏可璐斯的小站'
-keywords:
+description: '苏可璐斯的部落阁'
+keywords: 苏可璐斯,部落阁,甜度,电子,编程,生活,计算机,技术,博客,个人博客
 author: bisucrose
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -28,7 +28,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+  - baidu_verify_codeva-E3MfcFHbuL.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
