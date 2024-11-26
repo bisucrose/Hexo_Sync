@@ -1,7 +1,11 @@
 ---
 title: STM32LearningNoteOld
 date: 2023-07-24 21:24:29
-categories: Archived
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [Archived]
 ---
 

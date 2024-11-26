@@ -1,8 +1,16 @@
 ---
 title: WSL使用指南&常用命令（持续更新）
 date: 2024-11-15 05:12:08
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [教程,WSL]
+top: false
 ---
+
+
 
 # WSL使用指南
 

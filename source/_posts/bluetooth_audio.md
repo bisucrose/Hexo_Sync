@@ -1,8 +1,13 @@
 ---
 title: 蓝牙音频编码以及传输模式
 date: 2024-10-30 10:26:45
-categories: 科普
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [科普,选购指南]
+top: false
 ---
 
 # 蓝牙音频编码以及传输模式

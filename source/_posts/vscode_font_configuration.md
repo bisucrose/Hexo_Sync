@@ -1,10 +1,11 @@
 ---
 title: Visual Studio Code终端字体&编辑器字体&中文编码配置
 date: 2024-10-22 12:00
-swiper: false # 将改文章放入轮播图中
-swiperImg: '/medias/1.jpg' # 该文章在轮播图中的图片，可以是本地目录下图片也可以是http://xxx图片
-img: '/medias/Wallpaper/1.jpg' # 该文章图片，可以是本地目录下图片也可以是http://xxx图片
-categories: 工具配置
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [VSCode,配置]
 top: false
 ---

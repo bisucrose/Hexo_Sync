@@ -1,7 +1,11 @@
 ---
 title: 2022年全国大学生电子设计大赛B题思路
 date: 2024-11-05 21:07:00
-categories: 比赛教程
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [竞赛,教程,模板]
 top: true
 mathjax: true

@@ -1,6 +1,11 @@
 ---
 title: Windows Subsystem for Linux安装教程与使用方法（GUI与终端安装）
 date: 2024-11-13 10:12:08
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: ''
 tags: [教程,WSL]
 top: true
 ---
@@ -81,15 +86,14 @@ top: true
 >    reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Drive\shell\WSL /f
 >    reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\WSL /f
 >    reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\WSL /f
+>       ```
 >    
->    ```
->
->    执行完毕后问题解决。
+>   执行完毕后问题解决。
 >    
-> 4. 报错**%1 is not a valid Win32 application**
->
->    请移步[wsl的安装 | T琉璃T](https://glasswarm.github.io/2024/11/05/WSL/wsl的安装/#报错)，琉璃姐姐有记录此问题，我未能复现，无法提供帮助。
->
+>    4. 报错**%1 is not a valid Win32 application**
+> 
+>   请移步[wsl的安装 | T琉璃T](https://glasswarm.github.io/2024/11/05/WSL/wsl的安装/#报错)，琉璃姐姐有记录此问题，我未能复现，无法提供帮助。
+> 
 
 
 

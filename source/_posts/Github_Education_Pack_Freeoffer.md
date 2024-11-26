@@ -1,7 +1,11 @@
 ---
 title: GitHub Education Pack白嫖教程
 date: 2024-11-18 20:27:19
-category: Github
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [Github,教程]
 top: true
 ---

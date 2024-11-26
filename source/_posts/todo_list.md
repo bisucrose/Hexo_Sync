@@ -2,9 +2,9 @@
 title: 目前挖的坑&进度
 date: 2024-10-23 12:00
 swiper: false # 将文章放入轮播图中
-swiperImg: '/medias/1.jpg' # 该文章在轮播图中的图片，可以是本地目录下图片也可以是http://xxx图片
-img: '/medias/Wallpaper/2.jpg' # 该文章图片，可以是本地目录下图片也可以是http://xxx图片
-categories: To-Do List
+bgImg: []
+swiperImg: ''
+img: ''
 tags: []
 top: false
 ---
@@ -18,6 +18,8 @@ top: false
 - [x] 蓝牙耳机协议及模式
 - [x] 电子设计大赛实例
 - [x] 吉林大学常用网站导航
+- [x] 白嫖Github Education Pack的方式
+- [x] 保研过程指南
 - [ ] hexo 配置过程说明+macbook如何使用hexo
 - [ ] github blog速度优化方案
 - [ ] MacBook如何重装系统
@@ -27,7 +29,5 @@ top: false
 - [ ] opencore基础配置
 - [ ] markdown基本语法
 - [ ] opencore legacy patcher的使用方式
-- [x] 白嫖Github Education Pack的方式
-- [x] 保研过程指南
 - [ ] IPA Chart 语言语音学习笔记
 - [ ] 手机Root和必备软件安装

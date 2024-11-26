@@ -1,8 +1,11 @@
 ---
 title: 吉林大学入网指南（2024版）
 date: 2024-10-28 17:07:35
-img: '/medias/Wallpaper/3.jpg' # 该文章图片，可以是本地目录下图片也可以是http://xxx图片
-categories: 吉林大学
+excerpt: ''
+swiper: false
+bgImg: []
+swiperImg: ''
+img: '' 
 tags: [吉林大学,教程]
 top: true
 ---
