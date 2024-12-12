@@ -31,3 +31,6 @@ top: false
 - [ ] opencore legacy patcher的使用方式
 - [ ] IPA Chart 语言语音学习笔记
 - [ ] 手机Root和必备软件安装
+- [ ] SteamDeck双系统制作
+- [ ] Switch硬破安装ubuntu与安卓
+- [ ] Switch hetake解析
