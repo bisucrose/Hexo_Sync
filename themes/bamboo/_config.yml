@@ -372,9 +372,9 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    - title: '#苏可璐斯的小站终于重启了,https://bisucrose.github.io/为永久链接，若https://bisucrose.tech/无法访问，请访问https://bisucrose.github.io/。'
+    - title: '#苏可璐斯的小站重启了,请收藏链接 https://www.bisucrose.top/。'
       date: '2024-10-08'
-      url: ''   # 可以为空, 也可以是本地页面地址如 '/archives'
+      url: 'https://www.bisucrose.top/'   # 可以为空, 也可以是本地页面地址如 '/archives'
       color: green   # 字体颜色
     - title: '#琉璃姐姐也是一位很厉害的人呢，大家可以去她的博客看一看'
       date: '2024-10-16'
