@@ -717,7 +717,7 @@ prismjs:
 # highlight代码高亮，在根目录下的_config.yml文件中将highlight设为true的时候，在这里自定义颜色值
 # https://github.com/chriskempson/tomorrow-theme
 highlight:
-  background: '#292d3e'
+  background: '#2d2d2d'
   currentLine: '#393939'
   selection: '#515151'
   foreground: '#cccccc'
