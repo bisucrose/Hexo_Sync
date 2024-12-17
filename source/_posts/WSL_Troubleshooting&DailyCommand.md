@@ -28,7 +28,7 @@ WSL2是有图形化文件管理界面的，在安装完WSL后在此电脑左边�
 
 Ubuntu的字体存储在/usr/share/fonts目录下，精简安装的时候很多字体都被阉割了，可以把Windows里面的字体复制粘贴到Ubuntu里面。
 
-```shell
+```bash
 sudo mkdir /usr/share/fonts/windows
 sudo cp /mnt/c/Windows/Fonts/* /usr/share/fonts/windows
 ```
@@ -43,7 +43,7 @@ sudo cp /mnt/c/Windows/Fonts/* /usr/share/fonts/windows
 
 例如：
 
-```shell
+```bash
 bisucrose@DESKTOP-F2U79D7:~$ wsl --update
 wsl: command not found
 bisucrose@DESKTOP-F2U79D7:~$ wsl.exe --update

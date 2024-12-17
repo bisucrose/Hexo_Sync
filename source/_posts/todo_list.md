@@ -20,17 +20,17 @@ top: false
 - [x] 吉林大学常用网站导航
 - [x] 白嫖Github Education Pack的方式
 - [x] 保研过程指南
-- [ ] hexo 配置过程说明+macbook如何使用hexo
+- [x] hexo 配置过程说明+macbook如何使用hexo
 - [ ] github blog速度优化方案
 - [ ] MacBook如何重装系统
 - [ ] macbook的MBR+GPT混合分区表作用 创建与恢复+维护
 - [ ] Windows下使用powershell的时候显示此系统上禁止运行脚本
 - [ ] 如何使用bootcamp模拟legacy环境
-- [ ] opencore基础配置
-- [ ] markdown基本语法
+- [ ] ~~opencore基础配置~~
+- [ ] ~~markdown基本语法~~
 - [ ] opencore legacy patcher的使用方式
 - [ ] IPA Chart 语言语音学习笔记
 - [ ] 手机Root和必备软件安装
-- [ ] SteamDeck双系统制作
+- [x] SteamDeck双系统制作
 - [ ] Switch硬破安装ubuntu与安卓
 - [ ] Switch hetake解析
