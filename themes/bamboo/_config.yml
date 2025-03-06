@@ -376,17 +376,11 @@ notice:
       date: '2024-10-08'
       url: 'https://www.bisucrose.top/'   # 可以为空, 也可以是本地页面地址如 '/archives'
       color: green   # 字体颜色
-    - title: '#琉璃姐姐也是一位很厉害的人呢，大家可以去她的博客看一看'
-      date: '2024-10-16'
-      url: 'http://glasswarm.github.io/'
-      color: red
     - title: '#音乐功能已经配置好了，可以点击左下角播放哦'
       date: '2024-10-18'
       url: 'https://music.163.com/playlist?id=12760678202&uct2=U2FsdGVkX18qjwKL+sy82Lguu03JhZoEfaWJ6A8w61g='
       color: blue
-    # - title: '#可以加入琉璃姐姐的群哦~'
-    #   date: '2024-10-16'
-    #   url: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Ics5ezQ8ELkSQPEGu_VFGXaGwMpMQSt&authKey=40cT1pJR4cSzmDyXZbVAP5%2F7edJBKVKSj%2FMXZ12YNKbLZ7re8i%2BbNaQPqxvW9epN&noverify=0&group_code=851139709'
+  
     #   color: '#42b983'
     # - title: '#新增 头部导航可以设置为在顶部透明，并且可以任意设置背景颜色了 ~'
     #   date: '2021-04-28'
