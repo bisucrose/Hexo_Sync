@@ -82,6 +82,16 @@ hexo依赖Node.js和Git工作，如果你没有安装过这两个依赖，请按
 npm install -g hexo-cli
 ```
 
+在这一步你有可能会遇到如下问题：
+
+![屏幕截图(174)](hexo_blog_tutorial/屏幕截图(174).png)
+
+这是因为你的windows安全策略设置成了严格模式，只需要使用如下命令（需要在管理员模式下运行）：
+
+```shell
+set-ExecutionPolicy RemoteSigned
+```
+
 在国内npm可能非常慢，可以使用阿里镜像源，只需要用以下命令
 
 ```shell
